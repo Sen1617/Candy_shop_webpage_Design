@@ -1,0 +1,212 @@
+html{
+    background-color: #afdf9e;
+    overflow-x:hidden;
+}
+html::-webkit-scrollbar {
+    display: none;
+  }
+header{
+    background-color: #fff9f0;
+    box-shadow: 0px 0px 8px rgba(79, 30, 1, 0.895);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: -10px;
+    padding-top:20px;
+}
+nav{ 
+    
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-items: center;
+}
+.sticky{
+    position:fixed;
+    top:0;
+    width:100%;
+}
+.logoimg{
+    margin-top: -10px;
+    height: 80px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+}
+.menu>div>a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(125, 79, 10);
+    font-family: 'Raleway', sans-serif;
+}
+.menu>div>a:hover{
+    color: rgb(97, 61, 8);
+    font-size: 18px;
+}
+
+.linetags{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Caveat', cursive; */
+}
+#home{
+    height: 500px;
+    width: 96%;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    box-shadow: rgba(102, 102, 114, 0.7) 0px 7px 29px 0px;
+    margin-top: 30px;
+    margin-left: 15px;
+    color: white;
+    text-shadow:1px 1px 2px rgba(0, 0, 0, 0.833);
+    background-color: #afdf9e;
+    background-image: url(banner1blur.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.linetags{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    box-shadow: rgba(76, 76, 85, 0.863) 0px 7px 29px 0px;
+    background-color: #ffffffa2;
+    
+    margin: 40px;
+}
+.linetags>.bttn{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00000084;
+    height: 30px;
+    width: 100px;
+    background-color: #afdf9e;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    padding-top:5px ;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.transimg{
+    margin-left: 100px;
+    margin-top: 80px;
+    filter: drop-shadow(-16px 16px 15px rgba(50, 50, 50, 0.756));
+}
+
+#shop{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.headtag{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-items: center;
+}
+
+
+.product>.items>.itemimg>img{
+    width: 160px;
+    height: 160px;
+    margin-top: -70px;
+    border-radius: 50%; 
+    filter: drop-shadow(8px 5px 16px rgba(37, 37, 37, 0.792));
+}
+.items>div:nth-child(n+2):not(:last-child){
+    margin-top: 15px;    
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.headtag{
+    color: white;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow:1px 1px 2px rgba(0, 0, 0, 0.833);
+}
+.orderbtn{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00000084;
+    height: 25px;
+    width: 110px;
+    background-image: linear-gradient(to bottom right, white,#b9e6a9a9);
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.product>.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 10% 5%;
+    height: 250px;
+    width: 180px;
+    background-color: #579138c5;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 1px;   
+    border-color: #ffffff80;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.items>.orderbtn{
+    margin-top: 10px;
+    padding-top: 8px;
+    
+}
+
+#delivery{
+    margin-top: 5%;
+    background-color: #ffffff;
+    height: 600px;
+}
+#app{
+    background-color: #ffffff;
+    height: 600px;
+}
+#delivery>.headtag{
+    text-shadow: none;
+    display: grid;
+    grid-template-columns: 95% 20%;   
+    justify-items: center;
+}
+.content{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    margin-top: 20px;
+}
+.content>.contentpara{
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.6;
+    margin-top: 50px;
+    margin-left: 5%;
+    font-size: 25px;
+}
+
+#about{
+    height: 600px;
+    background-image: linear-gradient(to bottom right, rgb(194, 94, 94),#b76938a9);
+}
+#about>div.content>*{
+    margin-top: 10%;
+    color: white;
+}
+
+#contact{
+    background-color: white;
+    height: 300px;
+}
